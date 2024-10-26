@@ -12,8 +12,8 @@
     name: string,
     status: enum (draft, published, archived) -> default draft,
     url: string,
-    active: boolean,
-    noVisits: number,
+    active: boolean -> default true,
+    noVisits: number -> default 0,
     createdAt: Date,
     updatedAt: Date
 */
