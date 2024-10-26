@@ -15,7 +15,7 @@
     active: boolean -> default true,
     noVisits: number -> default 0,
     createdAt: Date,
-    updatedAt: Date
+    updatedAt: Date    
 */
 
 const porftolioMartin = {
